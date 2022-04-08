@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    letter-spacing: 1rem;
+    font-size: 4rem;
+}
+
+h2 {
+    color: #fff;
+}
+
+h5 {
+    color: #06244B;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #06244B;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+}
+
+/* TO SORT */
+.navbar-toggler {
+    color: #fff;
+}
+
+/* Main */
+.main {
+    background-image: url(img/solar1.jpg);
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 36, 75, 0.503);
+}
+
+#main .btn {
+    color: #194280;
+}
+
+#main .btn:hover {
+    color: #0d6efd;
+}
+
+/* About */
+.about {
+    padding: 3.75rem;
+    /* background-color: #eee; */
+    background-color: #79a9fb;
+    background-image: linear-gradient(0deg, #79a9fb 0%, #1d4f9a 33%);
+}
+
+.card {
+    width: 17rem;
+    text-align: center;
+}
+
+.card > img {
+    max-height: 10rem;
+    padding-top: 1rem;
+}
+
+.card-text {
+    color: #666;    
+    font-size: .8rem;
+}
+
+/* Technologies */
+.tech {
+    padding: 3.75rem;
+    background-color: #79a9fb;
+}
+
+.img-tech {
+    max-height: 10rem;
+    background-size: cover;
+    width: auto;
+}
+
+.tech-box > h5 {
+    text-align: center;
+}
+
+.tech-text {
+    width: 100%;
+    color: #000;
+    font-size: .75rem;
+    text-align: justify;
+}
+
+/* Services */
+.services {
+    padding: 3.75rem 0;
+    background-image: url("img/solar7.jpg");
+    height: 100%;
+    width: 100vw;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.services-glasscard {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 3rem;
+    background: rgba(255, 255, 255, .45);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0,0,0, .6);
+}
+
+#services h2 {
+    color: #06244B;
+    text-align: center;
+}
+
+.services p {
+    font-size: .75rem;
+    text-align: justify;
+    color: #333;
+}
+
+/* Contact */
+.contact {
+    background-color: #06244B;
+    height: 30vh;
+    padding: 4rem;
+    color: #fff;
+    font-size: .7rem;
+    display: flex;
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact .socials i {
+    padding: 5px 15px;
+}
